@@ -1,0 +1,82 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000000, #5e90dc);
+    color: white;
+}
+img {
+    border-radius: 8px;
+  }
+
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(to bottom, #000000, #042445);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #c0c0c0 !important;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+/* Mission & Vision */
+/*.mission-vision {
+    background: linear-gradient(to bottom, #000000, #042445);
+    background-color: #003366;
+    color: #c0c0c0;
+}*/
+/*.container{
+    background: linear-gradient(to bottom, #000000, #042445);
+    border-radius: 8px;
+}*/
+
+/* Testimonials Section */
+/*.testimonials {
+    background-color: #050505;
+}
+*/
+.card {
+    border: none;
+    background: linear-gradient(to bottom, #1d024d, #010509);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.card img {
+    border-radius: 4%;
+    background-color: #003366;
+}
+
+.card img:hover{
+    transform: scale(1.05);
+}
+
+
+/* Media Gallery */
+.gallery-img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #050101;
+    color: #c0c0c0;
+}
